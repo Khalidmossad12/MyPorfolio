@@ -155,7 +155,7 @@ body {
   /* End Header */
   /*  Start Slider*/
   .slider {
-      background-image: url(../img/khalid_bg.jpg);
+    background-color: #0d0336;
       background-size: cover;
       background-position: center center;
       background-attachment: fixed;
@@ -213,14 +213,36 @@ body {
 }
 
 .main-head h2::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background-color: #149DDD;
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #149DDD;
 }
+
+
+.main-head h4{
+  font-size: 22px;
+  font-weight: 900;
+  color: #173b6c;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.main-head h4::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #149DDD;
+}
+
+
+
 
 .about-info h2 {
     font-size: 25px;
